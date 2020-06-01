@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e581d48b-2484-42ef-86c2-23e97db43ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exam/singletone/innerStaticHelperClass/AgentieInnerHelperClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/singletone/innerStaticHelperClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/singletone/enumSingletone/AgentieEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/singletone/enumSingletone/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singletone/threadSafe/AgentieThreadSafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singletone/threadSafe/AgentieThreadSafe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/threadSafe/AgentieThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singletone/threadSafe/AgentieThreadSafe.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exam.singletone.lazyInitialization.Main" />
       <module name="DesignPatternsProj" />
@@ -98,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.singletone.eagerInitialization.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.singletone.enumSingletone.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.singletone.eagerInitialization.*" />
+          <option name="PATTERN" value="com.exam.singletone.enumSingletone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590640727634</updated>
       <workItem from="1590640729092" duration="2779000" />
-      <workItem from="1591012741615" duration="3920000" />
+      <workItem from="1591012741615" duration="4542000" />
     </task>
     <servers />
   </component>
