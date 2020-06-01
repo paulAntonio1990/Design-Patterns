@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e581d48b-2484-42ef-86c2-23e97db43ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exam/singletone/enumSingletone/AgentieEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/singletone/enumSingletone/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/eagerInitialization/AgentieEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/eagerInitialization/AgentieEager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/eagerInitialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/eagerInitialization/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/enumSingletone/AgentieEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/enumSingleton/AgentieEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/enumSingletone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/enumSingleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/innerStaticHelperClass/AgentieInnerHelperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/innerStaticHelperClass/AgentieInnerHelperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/innerStaticHelperClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/innerStaticHelperClass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/lazyInitialization/AgentieLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/lazyInitialization/AgentieLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/lazyInitialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/lazyInitialization/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/staticblock/AgentieStaticBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/staticblock/AgentieStaticBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/staticblock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/staticblock/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/threadSafe/AgentieThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/threadSafe/AgentieThreadSafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/threadSafe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/threadSafe/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +52,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.singletone.lazyInitialization.Main" />
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.singleton.lazyInitialization.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.singletone.lazyInitialization.*" />
+          <option name="PATTERN" value="com.exam.singleton.lazyInitialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.singletone.staticblock.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.singleton.staticblock.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.singletone.staticblock.*" />
+          <option name="PATTERN" value="com.exam.singleton.staticblock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.singletone.threadSafe.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.singleton.threadSafe.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.singletone.threadSafe.*" />
+          <option name="PATTERN" value="com.exam.singleton.threadSafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.singletone.innerStaticHelperClass.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.singleton.innerStaticHelperClass.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.singletone.innerStaticHelperClass.*" />
+          <option name="PATTERN" value="com.exam.singleton.innerStaticHelperClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.singletone.enumSingletone.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.singleton.enumSingleton.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.singletone.enumSingletone.*" />
+          <option name="PATTERN" value="com.exam.singleton.enumSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,9 +120,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
       </list>
@@ -130,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590640727634</updated>
       <workItem from="1590640729092" duration="2779000" />
-      <workItem from="1591012741615" duration="4542000" />
+      <workItem from="1591012741615" duration="4766000" />
     </task>
     <servers />
   </component>
@@ -152,7 +161,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/exam/singletone/lazyInitialization/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/com/exam/singleton/lazyInitialization/Main.java</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
