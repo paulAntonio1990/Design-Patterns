@@ -7,7 +7,7 @@ public class AgentieThreadSafe {
 
     private static AgentieThreadSafe singletone;
 
-    public AgentieThreadSafe(String name, Double capital, Integer numarAngajati) {
+    private AgentieThreadSafe(String name, Double capital, Integer numarAngajati) {
         this.name = name;
         this.capital = capital;
         this.numarAngajati = numarAngajati;
