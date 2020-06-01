@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e581d48b-2484-42ef-86c2-23e97db43ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/AgentieSimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/AgentieSingletonSimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/PachetCazare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/PachetCazareTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/PachetTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/PachetTuristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/TipPachet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/FactoryAllInclusive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/FactoryCazare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/FactoryCazareTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/FactoryTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/PachetAllInclusive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/PachetCazare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/PachetCazareTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/PachetTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factoryMethod/PachetTuristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/prototype/deep/ListaOferte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/prototype/deep/ListaOferteImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/prototype/oferte.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,6 +46,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\prototype" />
+      <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\prototype\deep" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -51,7 +64,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.factoryMethod.Main" />
+      <module name="DesignPatternsProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exam.factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.prototype.Main" />
+      <module name="DesignPatternsProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exam.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exam.singleton.lazyInitialization.Main" />
       <module name="DesignPatternsProj" />
@@ -132,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590640727634</updated>
       <workItem from="1590640729092" duration="2779000" />
-      <workItem from="1591012741615" duration="7152000" />
+      <workItem from="1591012741615" duration="10302000" />
     </task>
     <servers />
   </component>
