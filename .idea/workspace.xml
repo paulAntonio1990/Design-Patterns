@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e581d48b-2484-42ef-86c2-23e97db43ea4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/eagerInitialization/AgentieEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/eagerInitialization/AgentieEager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/eagerInitialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/eagerInitialization/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/enumSingletone/AgentieEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/enumSingleton/AgentieEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/enumSingletone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/enumSingleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/innerStaticHelperClass/AgentieInnerHelperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/innerStaticHelperClass/AgentieInnerHelperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/innerStaticHelperClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/innerStaticHelperClass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/lazyInitialization/AgentieLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/lazyInitialization/AgentieLazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/lazyInitialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/lazyInitialization/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/staticblock/AgentieStaticBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/staticblock/AgentieStaticBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/staticblock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/staticblock/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/threadSafe/AgentieThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/threadSafe/AgentieThreadSafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam/singletone/threadSafe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/singleton/threadSafe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/AgentieSimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/AgentieSingletonSimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/PachetCazare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/PachetCazareTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/PachetTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/PachetTuristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/factory/TipPachet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exam.singleton.lazyInitialization.Main" />
       <module name="DesignPatternsProj" />
@@ -118,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.factory.Main" />
+      <module name="DesignPatternsProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exam.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590640727634</updated>
       <workItem from="1590640729092" duration="2779000" />
-      <workItem from="1591012741615" duration="4766000" />
+      <workItem from="1591012741615" duration="7152000" />
     </task>
     <servers />
   </component>
