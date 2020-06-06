@@ -2,65 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e581d48b-2484-42ef-86c2-23e97db43ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofClasses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofClasses/Masina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofClasses/MasinaInchiriata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofClasses/PachetCazare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofClasses/PachetMasinaInchiriata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofClasses/PachetTuristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofObjects/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofObjects/Masina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofObjects/MasinaInchiriata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofObjects/PachetCazare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofObjects/PachetMasinaInchiriata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/adapter/ofObjects/PachetTuristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/facade/CompanieAerina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/facade/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/facade/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/facade/Zbor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/builder/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/builder/v1/Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/builder/v1/PachetTransport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/builder/v1/PachetTransportBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/builder/v2/BuilderV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/builder/v2/PachetTransportBuilderV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/builder/v2/PachetTransportV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/AgentieSimpleFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/AgentieSimpleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/AgentieSingletonSimpleFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/AgentieSingletonSimpleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/PachetCazare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/PachetCazareTransport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/PachetTransport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/PachetTuristic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factory/TipPachet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/FactoryAllInclusive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/FactoryCazare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/FactoryCazareTransport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/FactoryTransport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/PachetAllInclusive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/PachetCazare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/PachetCazareTransport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/PachetTransport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/factoryMethod/PachetTuristic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/prototype/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/prototype/deep/ListaOferte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/prototype/deep/ListaOferteImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/prototype/oferte.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/eagerInitialization/AgentieEager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/eagerInitialization/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/enumSingleton/AgentieEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/enumSingleton/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/innerStaticHelperClass/AgentieInnerHelperClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/innerStaticHelperClass/AgentieInnerHelperClass$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/innerStaticHelperClass/AgentieInnerHelperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/innerStaticHelperClass/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/lazyInitialization/AgentieLazy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/lazyInitialization/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/staticblock/AgentieStaticBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/staticblock/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/threadSafe/AgentieThreadSafe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsProj/com/exam/singleton/threadSafe/Main.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exam.structural.adapter.ofClasses.Main" />
       <module name="DesignPatternsProj" />
@@ -136,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.exam.structural.adapter.ofObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.structural.facade.Main" />
+      <module name="DesignPatternsProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exam.structural.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +242,7 @@
       <updated>1590640727634</updated>
       <workItem from="1590640729092" duration="2779000" />
       <workItem from="1591012741615" duration="15124000" />
-      <workItem from="1591450253022" duration="3675000" />
+      <workItem from="1591450253022" duration="5602000" />
     </task>
     <servers />
   </component>
