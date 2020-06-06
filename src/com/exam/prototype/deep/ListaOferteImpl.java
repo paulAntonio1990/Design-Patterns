@@ -38,7 +38,8 @@ public class ListaOferteImpl implements ListaOferte {
     @Override
     public void initiazaListaOferte() {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(new File("C:\\My place\\Facultate\\sem 6\\CTS\\DesignPatternsProj\\src\\com\\exam\\prototype\\oferte.txt")));
+            BufferedReader reader = new BufferedReader(new FileReader(
+                    new File("C:\\My place\\Facultate\\sem 6\\CTS\\DesignPatternsProj\\src\\com\\exam\\prototype\\oferte.txt")));
             String oferta = null;
 
             while ((oferta = reader.readLine()) != null) {
