@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e581d48b-2484-42ef-86c2-23e97db43ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/Agentie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/ClientFidel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/Cash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/ModPlata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/PayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/ComandaRezervare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/ComandaVanzare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/PachetCazare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/PachetTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/PachetTuristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/ComandaRezervare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/ComandaVanzare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/PachetCazare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/PachetTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/PachetTuristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/Rezervare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/Stare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/StareEfectuata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/StareNeplatita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/StarePlatita.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/exam/structural/adapter/ofObjects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -49,6 +60,7 @@
       <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\prototype\deep" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.exam.behavioral.state" />
       <recent name="com.exam.structural.flyweight" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -56,6 +68,7 @@
       <recent name="com.exam.builder.v2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\behavioral\command\withUndo" />
       <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\structural\adapter\ofObjects" />
       <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\builder\v2" />
     </key>
@@ -72,20 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.structural.proxy.Main" />
-      <module name="DesignPatternsProj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exam.structural.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.strategy.Main" />
       <module name="DesignPatternsProj" />
@@ -112,12 +112,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.structural.composite.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.state.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.structural.composite.*" />
+          <option name="PATTERN" value="com.exam.behavioral.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.command.regular.Main" />
+      <module name="DesignPatternsProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exam.behavioral.command.regular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.command.withUndo.Main" />
+      <module name="DesignPatternsProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exam.behavioral.command.withUndo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +157,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.exam.creational.factoryMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.structural.flyweight.Main" />
-      <module name="DesignPatternsProj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exam.structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +277,7 @@
       <updated>1590640727634</updated>
       <workItem from="1590640729092" duration="2779000" />
       <workItem from="1591012741615" duration="15124000" />
-      <workItem from="1591450253022" duration="15087000" />
+      <workItem from="1591450253022" duration="18498000" />
     </task>
     <servers />
   </component>
@@ -291,6 +304,16 @@
           <url>file://$PROJECT_DIR$/src/com/exam/creational/singleton/lazyInitialization/Main.java</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exam/behavioral/command/regular/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
