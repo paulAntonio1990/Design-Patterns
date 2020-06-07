@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e581d48b-2484-42ef-86c2-23e97db43ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/Notificator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/NotificatorEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/NotificatorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/NotificatorSMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Notificator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/NotificatorEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/NotificatorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/NotificatorSMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/PachetCazare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/PachetCazareTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/PachetTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/PachetTuristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/memento/ManagerPacheteTuristice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/memento/MementoPachetTuristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/memento/PachetTuristic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.template.Main" />
       <module name="DesignPatternsProj" />
@@ -112,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.state.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.memento.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.behavioral.state.*" />
+          <option name="PATTERN" value="com.exam.behavioral.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +261,7 @@
       <updated>1590640727634</updated>
       <workItem from="1590640729092" duration="2779000" />
       <workItem from="1591012741615" duration="15124000" />
-      <workItem from="1591450253022" duration="22816000" />
+      <workItem from="1591450253022" duration="24565000" />
     </task>
     <servers />
   </component>
