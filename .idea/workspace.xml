@@ -2,28 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e581d48b-2484-42ef-86c2-23e97db43ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/ComandaRezervare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/ComandaVanzare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/PachetCazare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/PachetTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/regular/PachetTuristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/ComandaRezervare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/ComandaVanzare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/PachetCazare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/PachetTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo/PachetTuristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/Rezervare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/Stare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/StareEfectuata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/StareNeplatita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/state/StarePlatita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/Notificator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/NotificatorEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/NotificatorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex01/NotificatorSMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Notificator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/NotificatorEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/NotificatorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/NotificatorSMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/PachetCazare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/PachetCazareTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/PachetTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/template/PachetTuristic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/exam/behavioral/command/withUndo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/exam/behavioral/chainOfResponsability/ex02" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -64,10 +62,12 @@
       <recent name="com.exam.structural.flyweight" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.exam.behavioral.chainOfResponsability.ex02" />
       <recent name="com.exam.structural.adapter.ofObjects" />
       <recent name="com.exam.builder.v2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\behavioral\chainOfResponsability\ex02" />
       <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\behavioral\command\withUndo" />
       <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\structural\adapter\ofObjects" />
       <recent name="C:\My place\Facultate\sem 6\CTS\DesignPatternsProj\src\com\exam\builder\v2" />
@@ -85,13 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.strategy.Main" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.template.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.behavioral.strategy.*" />
+          <option name="PATTERN" value="com.exam.behavioral.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.observer.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.chainOfResponsability.ex02.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.behavioral.observer.*" />
+          <option name="PATTERN" value="com.exam.behavioral.chainOfResponsability.ex02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +165,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.creational.prototype.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.chainOfResponsability.ex01.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.creational.prototype.*" />
+          <option name="PATTERN" value="com.exam.behavioral.chainOfResponsability.ex01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +277,7 @@
       <updated>1590640727634</updated>
       <workItem from="1590640729092" duration="2779000" />
       <workItem from="1591012741615" duration="15124000" />
-      <workItem from="1591450253022" duration="18498000" />
+      <workItem from="1591450253022" duration="22816000" />
     </task>
     <servers />
   </component>
