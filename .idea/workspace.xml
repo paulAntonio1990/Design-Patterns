@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e581d48b-2484-42ef-86c2-23e97db43ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/flyweight/FabricaPachete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/flyweight/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/flyweight/Optionale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/flyweight/PachetTuristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/flyweight/PachetTuristicImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/proxy/PachetTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/proxy/PachetTuristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/proxy/Persoana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exam/structural/proxy/ProxyPachet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/Agentie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/ClientFidel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/Cash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/ModPlata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exam/behavioral/strategy/PayPal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exam.structural.proxy.Main" />
       <module name="DesignPatternsProj" />
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.structural.facade.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.strategy.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.structural.facade.*" />
+          <option name="PATTERN" value="com.exam.behavioral.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.structural.decorator.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.behavioral.observer.Main" />
       <module name="DesignPatternsProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.structural.decorator.*" />
+          <option name="PATTERN" value="com.exam.behavioral.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +264,7 @@
       <updated>1590640727634</updated>
       <workItem from="1590640729092" duration="2779000" />
       <workItem from="1591012741615" duration="15124000" />
-      <workItem from="1591450253022" duration="12167000" />
+      <workItem from="1591450253022" duration="15087000" />
     </task>
     <servers />
   </component>
